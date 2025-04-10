@@ -5,6 +5,7 @@ React: Port 3000
 Flask: Port 8000
 In the server.py file - you must enter your root password on line 11 and line 49
 Run all .sql files in mysql
+
 EVERY FILE THAT YOU NEED FOR OUR WEBPAGE TO WORK IS IN THE MAIN FOLDER OF THE GITHUB REPOSITORY
 
 Must have installed: 
