@@ -32,8 +32,7 @@ function Houses() {
                 return response.json();
             })
             .then((data) => {
-                const sortedHouses = (data.houses || []).sort((a, b) => a.house_id - b.house_id);
-                setHouses(sortedHouses);
+                setHouses(data.houses);
             })
             .catch((error) => {
                 console.error('Error fetching houses:', error);
@@ -50,8 +49,7 @@ function Houses() {
                 return response.json();
             })
             .then((data) => {
-                const sortedVisits = (data.houses_by_person || []).sort((a, b) => a.house_id - b.house_id);
-                setVisits(sortedVisits);
+                setVisits(data.houses_by_person);
             })
             .catch((error) => {
                 console.error('Error fetching visits:', error);
