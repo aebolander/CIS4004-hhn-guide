@@ -12,7 +12,8 @@ react, react-router-dom, flask, flask_sqlalchemy, sqlalchemy, flask_cors, pymysq
 AI Usage:
 - ChatGPT used to help in UserLog.js
   I asked AI for help to display the information from the backend FLASK API to the frontend React website. I then took the useEffect skeleton it gave me to present my database information onto the frontend. I also used it to help with the increase/decrease buttons. While I was able to start development on visitChange on my own, I struggled with getting the numbers to sync properly. This is when I asked chatGPT to help me add functioning buttons that could be used to update the number of times someone visited a house using the increment_visit POST method in the Flask python file.
-- ChatGPT was used to help find debugging solutions to front-end scaling issues. This includes better usage of padding, help with image effets, and just general debugging issues. 
+- ChatGPT was used to help find debugging solutions to front-end scaling issues. This includes better usage of padding, help with image effets, and just general debugging issues.
+- Chat GPT was used to get an understanding of how google authenticator works and how the process is commonly done on websites. This allowed to get a foundation of how to implement it to our site such as how to link the site to the authenticator itself. This also included the process of logging into google using different accounts would function as the main intention was to allow different users to use their unique account to log in.
 
 Citation for the use of AI (if any).  Your citation must include:
 The AI used (i.e., ChatGPT, Claude.ai, Copilot, DeepSeek, Gemini, Grok, etc.)
