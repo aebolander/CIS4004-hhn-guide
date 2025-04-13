@@ -8,7 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # Configure SQLAlchemy
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:ucfd!sn3ysql?!@localhost/hhn_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@localhost/hhn_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 CORS(app)
@@ -71,7 +71,7 @@ with app.app_context():
 mysql = pymysql.connect(
     host='localhost',
     user='root',
-    password='ucfd!sn3ysql?!', #insert password#
+    password='password', #insert password#
     database='hhn_db'
 )
 
