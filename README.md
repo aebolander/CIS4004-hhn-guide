@@ -7,7 +7,7 @@ In the server.py file - you must enter your root password on line 11 and line 49
 Run all .sql files in mysql
 
 Must have installed: 
-react, react-router-dom, flask, flask_sqlalchemy, sqlalchemy, flask_cors, pymysql, oython, python-dotenv, cryptography
+react, react-router-dom, flask, flask_sqlalchemy, sqlalchemy, flask_cors, pymysql, python, python-dotenv, cryptography, react-oauth/google
 
 AI Usage:
 - ChatGPT used to help in UserLog.js
